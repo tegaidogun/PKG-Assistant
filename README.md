@@ -1,5 +1,3 @@
-<pre>
-<code>
 # PKGAssistant
 
 PKGAssistant is a Python desktop application that simplifies the process of downloading and extracting PlayStation package files. With a user-friendly GUI and a command-line interface, users can easily specify line ranges from a TSV file, choose to automatically apply zRIF keys, and store the extracted files in a single ZIP archive.
@@ -71,5 +69,3 @@ PKGAssistant uses the [pkg2zip](https://github.com/mmozeiko/pkg2zip) tool create
 ## License
 
 PKGAssistant is licensed under the GNU License. Please see the [LICENSE](LICENSE) file for more details.
-</code>
-</pre>
