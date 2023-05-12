@@ -17,8 +17,8 @@ PKGAssistant is a Python desktop application that simplifies the process of down
 To use PKGAssistant, first clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/username/PKGAssistant.git
-cd PKGAssistant
+git clone https://github.com/username/pkgassistant.git
+cd pkgassistant
 ```
 
 Then, install the necessary dependencies:
