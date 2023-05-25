@@ -5,15 +5,15 @@ from downloader import download_and_extract_packages
 def main():
     print()
     parser = argparse.ArgumentParser()
-    parser.add_argument('ranges', type=str, help='Line ranges in the format 4,5,8 or 4-8')
-    parser.add_argument('tsv_file', type=str, help='TSV file to read')
+    parser.add_argument('ranges', type=str, nargs='?', default='', help='Line ranges in the format 4,5,8 or 4-8')
+    parser.add_argument('tsv_file', type=str, nargs='?', default='', help='TSV file to read')
     parser.add_argument('-x', action='store_true', help='Delete files after unpackaging')
     parser.add_argument('-z', action='store_true', help='Automatically apply zRIF key')
     parser.add_argument('-q', action='store_true', help='Store all files in a single ZIP file')
     parser.add_argument('--nogui', action='store_false', help='Start the graphical user interface')
     args = parser.parse_args()
 
-    if args.nogui:
+    if args.nogui or (not args.ranges and not args.tsv_file):
         show_gui()
     else:
         ranges = args.ranges.replace(" ","")
