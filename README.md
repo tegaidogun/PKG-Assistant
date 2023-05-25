@@ -27,7 +27,7 @@ Then, install the necessary dependencies:
 pip install -r requirements.txt
 ```
 
-**Note**: PKGAssistant requires [pkg2zip](https://github.com/mmozeiko/pkg2zip) to be installed on your system to automatically apply zRIF keys. You can download pkg2zip from its official GitHub page.
+**Note**: PKGAssistant requires [pkg2zip](https://github.com/mmozeiko/pkg2zip) to be downloaded on your system to automatically apply zRIF keys.
 
 ## Usage
 
